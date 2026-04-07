@@ -1,4 +1,5 @@
 require 'csv'
+encoding: 'ISO-8859-1:UTF-8'
 
 class FileImporter
   def self.import(file_path)
